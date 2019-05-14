@@ -1,0 +1,133 @@
+/* 
+******************************************************************************************
+Location ./App.js -  container class for the dashboard application
+Element  main
+Container
+Description
+flexbox container for 
+nav-bar
+control-panel
+control-display
+******************************************************************************************
+*/
+main {
+  position: relative;
+}
+
+/* 
+******************************************************************************************
+Location ./components/NavBar.js -  nav contains site title and user settings control
+contains
+site-branding
+user-identification
+user-settings-menu
+******************************************************************************************
+*/
+.nav-bar {
+  width: 100%;
+  background: #111;
+  color: #fafafa;
+  position: fixed;
+  z-index: 3;
+}
+.nav-bar ul {
+  display: flex;
+  justify-content: flex-end;
+  height: 65px;
+}
+.site-title,
+.user-details,
+.user-settings-menu {
+  align-self: center;
+}
+.site-title {
+  font-size: 1.75rem;
+  flex-basis: 320px;
+  text-align: center;
+  align-content: center;
+}
+.user-details {
+  margin-right: auto;
+}
+.user-settings-menu {
+  font-size: 1.5rem;
+  margin-right: 1.25rem;
+}
+/* 
+******************************************************************************************
+Location ./App.js
+Element: div
+Container Class: dashboard
+Description: flex layout class to position the left side control panel and the
+             dashboard display panels.
+Contents:
+dashboard-options
+dashboard-panels
+******************************************************************************************
+*/
+
+.dashboard {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 65px;
+}
+
+/* 
+******************************************************************************************
+Location: ./components/ControlPanel.js 
+Element: aside 
+Container Class: dashboard-options
+Description: styles the dashboard panel and the panel options.
+Aditional Classes:
+site-branding
+user-identification
+user-settings-menu
+******************************************************************************************
+*/
+.dashboard-controls {
+  width: 320px;
+  background: #111;
+  color: #d7d7d7;
+  min-height: 100vh;
+  position: fixed;
+  box-shadow: inset -2px -8px 8px 0px rgb(220, 217, 217);
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard-panel-options li {
+  font-weight: 500;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  margin: 3.5rem 0;
+}
+.option-icon {
+  margin-right: 0.5rem;
+}
+
+/* 
+******************************************************************************************
+Location: ./components/ControlPanel.js 
+Element: aside 
+Container Class: dashboard-options
+Description: styles the dashboard panel and the panel options.
+Aditional Classes:
+site-branding
+user-identification
+user-settings-menu
+******************************************************************************************
+*/
+.dashboard-panels {
+  width: calc(100% - 320px);
+  color: #111;
+  height: 300vh;
+  background: #fafafa;
+  position: absolute;
+  left: 320px;
+}
+.dashboard-panels header {
+  text-align: center;
+  padding: 2.5rem 0;
+  font-size: 2.5rem;
+}

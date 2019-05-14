@@ -1,0 +1,45 @@
+body {
+  background: tomato;
+}
+.student-list {
+  background: Green;
+}
+.student {
+  display: flex;
+  background: white;
+  width: 45%;
+  padding: 0.5rem;
+}
+
+.avatar img {
+  width: 75%;
+}
+.bio {
+  display: flex;
+  flex-direction: column;
+}
+.bio h3 {
+  font-size: 1.275rem;
+  margin-bottom: 0.8rem;
+}
+.bio h4 {
+  font-size: 1rem;
+}
+.bio p {
+  font-size: 0.8rem;
+}
+.bio footer {
+  padding: 1rem 0;
+}
+
+.tag-cloud {
+  display: flex;
+}
+.tag-cloud li {
+  padding: 0.15rem 1rem;
+  font-size: 0.75rem;
+  border: 1px solid rgb(226, 226, 226);
+  background: rgb(246, 246, 246);
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+}

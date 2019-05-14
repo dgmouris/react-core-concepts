@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.plant-directory{
+  margin-left:1rem;
+ 
+}
+.filters{
+  background:rgb(224, 249, 185);
+  padding:1rem;
+  width:50%;
+  border:1px solid darkgrey;
+}
+.plants{
+  display:flex;
+  flex-wrap:wrap;
+  padding:1rem;
+  padding-right:0;
+}
+.plant{
+  font-size:12px;
+  background:rgb(244, 244, 244);
+  padding:0.25rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  flex: 0 1 calc(25% - 16px);
+  border:1px solid rgb(216, 216, 216);
+}
+
+.plant:hover{
+  background:rgb(189, 189, 189);
+}

@@ -1,0 +1,32 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background: #424242;
+  padding-top: 2rem;
+  color: #fff;
+  box-shadow: 4px 0 5px 0 rgba(0, 0, 0, 0.14);
+  position: relative;
+  z-index: 3;
+  margin-top: -48px;
+}
+
+.site-identity {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.site-title {
+  font-size: 1.4rem;
+  margin-bottom: 0.25rem;
+}
+.site-tagline {
+  font-size: 0.6825rem;
+  color: #b6b6b6;
+}
+.sidebar-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebar-button {
+  padding: 1.25rem 0;
+}

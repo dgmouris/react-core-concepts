@@ -1,0 +1,27 @@
+ QUESTIONS:
+  Can I access props some how through the event object if I declare it in the same file.
+  Can I pass props to this function. What I was trying was a single event handler for the
+  buttons and the wanted to pass value along to the component.?
+
+function onChangeSomething(e){
+   e.target.props
+   props.value
+}
+
+const A = (props)=> <div className="box-a" onClick={onChangeSomething}> button A </div>
+const B = (props)=> <div className="box-b" onClick={onChangeSomething}> button A </div>
+
+
+
+ What is the difference between 
+ import A from './a';
+ import {A} frp, './a';
+Why does it work sometimes and not others.
+    ie export defaul A
+    however export A   must use {}
+    
+Is there a way to export default a list of SFC like so:
+What is the purpose of export why do I need it?
+
+ import { GalleryImage, GalleryHeading, NextSlide, PreviousSlide } from './components'; 
+ 

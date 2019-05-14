@@ -1,0 +1,76 @@
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+#dashboard {
+  display: grid;
+  grid-template-columns: 275px 1fr;
+}
+
+/* 
+------------------------------------------------------------ 
+1. Page Header
+------------------------------------------------------------ 
+*/
+.header {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.169);
+}
+.branding {
+  display: flex;
+  padding: 8px;
+}
+.logo img {
+  height: 32px;
+  margin: 8px;
+}
+.details {
+  margin-top: 1rem;
+}
+.breadcrumbs {
+  color: rgb(203, 203, 203);
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  padding-left: 0.45rem;
+  line-height: 0;
+}
+.dashboard-title {
+  font-size: 20px;
+}
+
+.dashboard {
+  background-color: #f5f5f5;
+  padding: 2rem;
+}
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+div.tile {
+  width: calc((100% / 4) - 4 px);
+  height: 180px;
+  background: blue;
+  margin-bottom: 8px;
+}
+
+/* 
+DASHBOARD SIDE BAR
+*/
+.sidebar {
+  border-right: 1px solid rgba(128, 128, 128, 0.169);
+}
+.options li {
+  color: rgba(128, 128, 128, 0.882);
+  padding: 1rem;
+  border-top: 1px solid rgba(128, 128, 128, 0.169);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.169);
+}
+
+.options li:hover {
+  background-color: rgba(203, 204, 219, 0.347);
+}

@@ -1,0 +1,15 @@
+.fade-appear {
+  background: green;
+  transform: background 2000ms ease-out;
+}
+.fade-appear-active {
+  background: tomato;
+  transform: background 2000ms ease-out;
+}
+.fade-enter-done {
+  background: blue;
+  transform: background 2000ms ease-out;
+}
+body {
+  background: blue;
+}

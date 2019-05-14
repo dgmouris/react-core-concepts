@@ -1,0 +1,16 @@
+.ui-btn-lrg, .ui-button-blue, .ui-button-white {
+  text-align: center;
+  line-height: 2rem;
+  border-radius: 2rem;
+  padding: 0.25rem 1.5rem;
+  text-decoration: none;
+  font-variant: small-caps;
+  font-size: 1.5rem; }
+
+.ui-button-blue {
+  color: #00a8c9;
+  border: 3px solid #00a8c9; }
+
+.ui-button-white {
+  color: #fff;
+  border: 3px solid #fff; }

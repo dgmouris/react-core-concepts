@@ -1,0 +1,15 @@
+.sitenav {
+  position: relative;
+  z-index: 12;
+  height: 68px;
+  background: #616161;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.redline {
+  position: relative;
+  z-index: 1;
+  height: 48px;
+  background: #c53929;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14);
+}

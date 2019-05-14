@@ -1,0 +1,27 @@
+.counters {
+  padding: 2rem 0.5rem;
+}
+.counters-header {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.display-counters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.display-counters > .counter {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.counters footer {
+  text-align: center;
+}
+
+.add-counter {
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 4px;
+  background: transparent;
+}

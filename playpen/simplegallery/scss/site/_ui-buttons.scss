@@ -1,0 +1,23 @@
+.gallery-controls{
+    text-align: center;
+    padding-top:0.25rem;
+}
+
+.ui-btn-blue{
+    text-align:center;
+    line-height: 0;
+    color:#888;
+    border-radius: 0.8rem;
+    background: linear-gradient(to bottom, rgb(239, 238, 238) 0%,rgb(236, 236, 236) 100%);
+}
+
+// .ui-btn-blue{
+//     @extend .ui-btn;
+//      color:#00a8c9;
+//     border: 3px solid #00a8c9;
+// }
+// .ui-btn-white{
+//   @extend .ui-btn;
+//     color:#fff;
+//     border: 3px solid #fff;
+// }
