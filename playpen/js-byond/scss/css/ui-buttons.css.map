@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,KAAK,EAAC,OAAO;EACb,MAAM,EAAE,iBAAiB;EACzB,UAAU,EAAC,MAAM;EACjB,aAAa,EAAE,IAAI;EACnB,OAAO,EAAE,eAAe;EACxB,eAAe,EAAE,IAAI;CACxB",
-    "sources": [
-        "../site/ui-buttons.scss"
-    ],
-    "names": [],
-    "file": "ui-buttons.css"
-}
